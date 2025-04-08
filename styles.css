@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+figure {
+  border: 2px solid transparent;
+  padding: 10px;
+  width: 200px;
+  transition: border 0.3s;
+  outline: none;
+}
+
+figure:focus {
+  border: 3px solid orange;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
